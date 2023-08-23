@@ -1,0 +1,171 @@
+.header{
+  font-family: arial;
+  padding: 5px;
+  text-align: left;
+  background: #bdbdbd;
+  color: Black;
+  font-size: 10px;
+  border-bottom: 1px black solid;
+}
+
+.fixed-width{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.top-row{
+  font-family: arial;
+  color: #454545;
+  background-color: #99ccff;
+  float: left; 
+}
+
+.top-row img{
+  width: 200px;
+  height: 250px;
+  float: right;
+  clear: right;
+  padding: 10px;
+  }  
+
+.top-row h1{
+  color: black;
+  padding-left: 10px;
+  overflow: auto;
+}
+
+.top-row h2{
+  padding-left: 10px;
+  overflow: auto;
+}
+
+
+.top-row h3{
+  padding-left: 10px;
+  overflow: auto;
+}
+
+.top-menu{
+  padding: 10px;
+  background-color: #b4b4b4;  
+}
+
+.top-menu ul{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.top-menu li{
+    list-style: none;
+    font-family: Arial;
+    float: left;
+    border-right: 1px solid #b4b4b4;
+    font-size: 1em;
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+  }
+
+.top-menu li a{
+text-decoration: none;  
+}
+
+.top-menu li: hover{
+  border-bottom: red;
+}
+
+#publications {
+  border-right: none;
+}
+
+#links:hover{
+  border-bottom: 5px solid #bdbdbd;
+}
+
+#publications:hover{
+  border-bottom: 5px solid #bdbdbd;
+}
+
+.biography{
+  float: left;
+  margin: 10px;
+  border-bottom: 2px #bdbdbd solid;
+}
+
+.biography h2{
+  color: #8a8a8a;
+  font-family: Arial;
+}
+
+.biography p{
+  font-family: Arial;
+}
+  
+.work {
+  float: left;
+  margin: 10px;
+  border-bottom: 2px #bdbdbd solid;
+}
+
+.work h2{
+  color: #8a8a8a;
+  font-family: Arial;
+}
+
+.work p{
+  font-family: Arial;
+}
+
+.popculture {
+  float: left;
+  margin: 10px;
+  font-family: Arial;
+  border-bottom: 2px #bdbdbd solid;
+}
+
+.popculture h2{
+  color: #8a8a8a;
+  font-family: Arial;
+}
+
+.popculture img{
+  width: 200px;
+  height: 250px;
+  float: right;
+  clear: right;
+  padding: 10px;
+  }  
+
+
+.popculture p{
+  font-family: Arial;
+}
+
+.sources {
+  float: left;
+  margin: 10px;
+  font-family: Arial;
+}
+
+.sources h2{
+  color: #8a8a8a;
+  font-family: Arial;
+}
+
+.sources p{
+  font-family: Arial;
+}
+
+.footer1{
+  font-family: arial;
+  padding: 5px;
+  text-align: left;
+  background: #bdbdbd;
+  color: Black;
+  font-size: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
